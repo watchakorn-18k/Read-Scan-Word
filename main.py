@@ -1,10 +1,8 @@
 import tkinter as tk
-
 from tkinter import ttk
 from tkinter import messagebox
 from tkinter import *
 from tkinter import filedialog as fd
-
 import time
 import threading
 
@@ -12,7 +10,9 @@ import threading
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('Read Text')
+        self.iconbitmap('icon.ico')
+        self.resizable(width=False, height=False)
+        self.title('READ-SCAN-WORD')
         self.geometry('400x300')
         self.openfilename = None
         self.create_widgets()
@@ -20,7 +20,7 @@ class App(tk.Tk):
     def create_widgets(self):
         self.menu_bar = Menu(self)
         self.config(menu=self.menu_bar)
-        self.file_menu = Menu(self.menu_bar, tearoff=0)
+        self.file_menu = Menu(self.menu_bar, tearoff=0,)
         self.file_menu.add_command(label="เปิดไฟล์", command=self.open_file)
         self.file_menu.add_separator()
         self.file_menu.add_command(label="ปิดโปรแกรม", command=self.quit)
