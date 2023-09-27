@@ -12,3 +12,10 @@
 <p>
 Download: <a href="https://github.com/watchakorn-18k/Read-Scan-Word/releases/download/Read-Scan-Word/Read-Scan-Word.rar">click</a>
 <p>
+
+# Installer
+```
+git clone https://github.com/watchakorn-18k/Read-Scan-Word.git
+cd Read-Scan-Word
+code .
+```
