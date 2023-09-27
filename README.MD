@@ -19,3 +19,6 @@ git clone https://github.com/watchakorn-18k/Read-Scan-Word.git
 cd Read-Scan-Word
 code .
 ```
+
+# Contribute
+- KorVee12
